@@ -119,10 +119,19 @@ body {
 .w-25 {
   width: 25% !important;
 }
+
+.w-50 {
+  width: 50% !important;
+}
+
 .text-muted {
   color: #b2b2b2 !important;
 }
 .mr-1,
 .mx-1 {
   margin-right: 0.625rem !important;
+}
+
+.hm-text-align-centre {
+  text-align: center;
 }
