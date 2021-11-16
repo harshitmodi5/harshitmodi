@@ -33,3 +33,96 @@
   color: white;
   background-color: rgb(123, 84, 200);
 }
+
+/* About Page  */
+body {
+  color: #888888;
+  /* margin-top: 20px; */
+}
+
+.progress {
+  position: relative;
+  overflow: inherit;
+  height: 10px;
+  margin: 30px 0px 15px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  height: 10px;
+  background: rgb(123, 84, 200);
+  border-radius: 10px;
+}
+
+.progress .progress-bar-title {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.progress .progress-bar-number {
+  position: absolute;
+  right: 0;
+  color: rgb(123, 84, 200);
+  top: -30px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.media-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.hm-text-black {
+  color: #000000;
+}
+
+.hm-font-weight-bold {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(123, 84, 200) !important;
+}
+.hm-font-weight-normal {
+  font-weight: 500 !important;
+}
+
+.hm-details-font {
+  font-weight: bold;
+  color: #000000;
+}
+
+.hm-details-font-normal {
+  font-weight: 500;
+  color: #000000;
+}
+
+.hm-about-title {
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(123, 84, 200) !important;
+  margin-top: 10px;
+}
+.w-25 {
+  width: 25% !important;
+}
+.text-muted {
+  color: #b2b2b2 !important;
+}
+.mr-1,
+.mx-1 {
+  margin-right: 0.625rem !important;
+}
