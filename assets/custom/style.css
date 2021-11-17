@@ -124,6 +124,9 @@ body {
   width: 50% !important;
 }
 
+.hm-height-500 {
+  height: 500px;
+}
 .text-muted {
   color: #b2b2b2 !important;
 }
