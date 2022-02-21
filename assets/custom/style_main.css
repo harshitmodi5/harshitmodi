@@ -1,0 +1,158 @@
+/*fonts*/
+
+ @font-face {
+    font-family: 'Ubuntu Light';
+    src: url('../fonts/ubuntu-l.eot');
+    src: url('../fonts/ubuntu-l.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l.woff2') format('woff2'),
+         url('../fonts/ubuntu-l.woff') format('woff'),
+         url('../fonts/ubuntu-l.ttf') format('truetype'),
+         url('../fonts/ubuntu-l.svg#ubuntu-l') format('svg');
+    
+}
+
+	@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothic.woff2') format('woff2'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#gothic') format('svg');
+		 
+		 }
+		 @font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('../fonts/OpenSans-Semibold.eot');
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold.woff2') format('woff2'),
+         url('../fonts/OpenSans-Semibold.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold.svg#ubuntu-l') format('svg');
+    
+}
+
+h1,h2,h3,h4{
+	font-family:'Open Sans Semibold';
+}
+footer, p , .navbar{
+	font-family:'Ubuntu Light';
+}
+
+p{font-size:18px;}
+
+li{
+	font-size:18px;
+	font-family:'Ubuntu Light';
+}
+
+/* header section */
+
+header .view {
+    background: #3871CD; 
+    background: -webkit-linear-gradient(#3871CD, #9C3DBF); 
+    background: -o-linear-gradient(#3871CD, #9C3DBF); 
+    background: -moz-linear-gradient(#3871CD, #9C3DBF); /
+    background: linear-gradient(#3871CD, #9C3DBF);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header .view h1{
+	line-height:55px;
+}
+
+
+header .navbar1{
+	 background: #4B67CA; 
+	text-shadow:0px;
+}
+
+header .navbar1 ul li a{
+	color:#fff;
+	font-size:18px;
+}
+
+/* footer section */
+
+.footer{
+  background:url("../images/music-banner.png")no-repeat center center ;
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family:'Ubuntu Light';
+}
+
+.footer img{
+	max-width:300px
+}
+
+@media (max-width:768px){
+	.footer img{
+	max-width:230px
+}
+}
+
+
+
+
+
+
+
+
+
+/* faq page coding */
+
+
+header .navbar2 .navbar-dark{
+	background-color:#fff;
+	color:#000;
+}
+header .navbar2.navbar-dark .navbar-nav .nav-item a{
+	color:#000;
+	font-size:18px;
+	font-weight:bold
+}
+
+
+header .navbar2.navbar-dark .navbar-nav .nav-item a:hover{
+	color:#4B67CA;
+}
+
+header .navbar2.navbar-dark .navbar-nav .nav-item.active, header .navbar2.navbar-dark .navbar-nav .nav-item.active a{
+	background-color:#4B67CA;
+	color:#fff;
+	border-radius:5px;
+}
+
+header .navbar2 .navbar-toggler{
+	background-color:#ccc;
+	border-radius:4px;
+}
+
+header .navbar2 .navbar-toggler-icon{
+	color:#fff;
+}
+
+
+.top-banner{
+	 background:url("../images/music-banner.png")no-repeat center center ;
+ -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:270px;
+}
+
+.top-banner .top-content{
+	height:270px;
+}
+
+.content h5{
+	margin-bottom:.2rem
+}
+
+.content p{font-size:18px;}
